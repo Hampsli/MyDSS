@@ -1,0 +1,27 @@
+.contentbox {
+    background-color: #ffffff;
+  
+    padding: 1rem;
+  
+    width: 100%;
+  
+    max-width: 60rem;
+  
+    margin: 0 1rem 1rem 1rem;
+  }
+  
+  .maincontent {
+    display: flex;
+  
+    flex-flow: row nowrap;
+  
+    justify-content: center;
+  
+    padding: 1rem;
+  }
+  
+  @media screen and (max-width: 1500px) {
+    .maincontent {
+      flex-flow: row wrap;
+    }
+  }
