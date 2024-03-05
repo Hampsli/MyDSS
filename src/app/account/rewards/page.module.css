@@ -1,0 +1,59 @@
+.signinflow {
+    background-color: #131921;
+  
+    padding: 0.5rem;
+  
+    color: #ffffff;
+  }
+  
+  .signinflowbtn {
+    border: none;
+  
+    padding: 0.5rem;
+  
+    background: #febd69;
+  
+    font-weight: bold;
+  
+    cursor: pointer;
+  
+    margin: 1rem;
+  }
+  
+  .vouchercontainer {
+    display: flex;
+  
+    flex-flow: row nowrap;
+  
+    justify-content: center;
+  
+    margin-top: 2rem;
+  }
+  
+  .voucher {
+    background: #ffffff;
+  
+    border: 1px solid black;
+  
+    padding: 1rem;
+  
+    width: 100%;
+  }
+  
+  .voucherdescription {
+    color: rgb(59, 191, 26);
+  
+    font-weight: bold;
+  }
+  
+  .vouchercode {
+    color: rgb(191, 26, 26);
+  
+    font-weight: bold;
+  }
+  
+  @media screen and (max-width: 1500px) {
+    .vouchercontainer {
+      flex-flow: row wrap;
+    }
+  }
